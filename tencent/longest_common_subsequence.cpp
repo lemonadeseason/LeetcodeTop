@@ -1,4 +1,4 @@
-
+//dp[i-1][j-1]肯定是正确的，如果新的可以匹配，在之前已经确定的答案上匹配就完事了。
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
