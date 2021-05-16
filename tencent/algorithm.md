@@ -2,7 +2,7 @@
 若想按部门/难度/题型筛选题目，请进入[CodeTop](https://codetop.cc)查询
 |题目|出现次数|链接|comment|
 |-|-|-|-|
-|206. 反转链表|5|https://leetcode-cn.com/problems/reverse-linked-list|运行和内存只超越18和11，需要再想一想，之后尝试、看别人的方法[自己能想到的想法确实很耗时]|
+|206. 反转链表|5|https://leetcode-cn.com/problems/reverse-linked-list|一开始的想法是把最后一个作为链表的开头，不断调用这个函数，使得被reverse的部分越来越长。查看题解是从头到尾一个个的调正确，即第一个被翻转过来的就是原来的开头，维护一个before变量，使得当前的next有所指，并且可以根据没变的next找到以前的下一个|
 |53. 最大子序和|4|https://leetcode-cn.com/problems/maximum-subarray|
 |1143. 最长公共子序列|3|https://leetcode-cn.com/problems/longest-common-subsequence|结合具体例子来考虑（2021.5.16第一次做，隔段时间还需要再回顾）|
 |442. 数组中重复的数据|2|https://leetcode-cn.com/problems/find-all-duplicates-in-an-array|
