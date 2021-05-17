@@ -6,7 +6,7 @@
 |53. 最大子序和|4|https://leetcode-cn.com/problems/maximum-subarray|得关注本质，因为是连续的，只需要考虑：如果考虑上一个（或者再加上上一个或者更之前的带来的效益）是否大于0，不是则只考虑本身，并维护一个max值|
 |1143. 最长公共子序列|3|https://leetcode-cn.com/problems/longest-common-subsequence|结合具体例子来考虑（2021.5.16第一次做，隔段时间还需要再回顾）|
 |442. 数组中重复的数据|2|https://leetcode-cn.com/problems/find-all-duplicates-in-an-array|完全没思路，第一反应就是排序，看了题解之后发现答案和题设有密切关系,可以巧妙地设立一些标注。|
-|300. 最长上升子序列|2|https://leetcode-cn.com/problems/longest-increasing-subsequence|
+|300. 最长上升子序列|2|https://leetcode-cn.com/problems/longest-increasing-subsequence|自己想的，用两个数组dp|
 |8. 字符串转换整数 (atoi)|2|https://leetcode-cn.com/problems/string-to-integer-atoi|
 |215. 数组中的第K个最大元素|2|https://leetcode-cn.com/problems/kth-largest-element-in-an-array|
 |121. 买卖股票的最佳时机|2|https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock|
