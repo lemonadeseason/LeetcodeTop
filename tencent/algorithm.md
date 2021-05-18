@@ -8,7 +8,7 @@
 |442. 数组中重复的数据|2|https://leetcode-cn.com/problems/find-all-duplicates-in-an-array|完全没思路，第一反应就是排序，看了题解之后发现答案和题设有密切关系,可以巧妙地设立一些标注。|
 |300. 最长上升子序列|2|https://leetcode-cn.com/problems/longest-increasing-subsequence|自己想的，用两个数组dp|
 |8. 字符串转换整数 (atoi)|2|https://leetcode-cn.com/problems/string-to-integer-atoi|看了别人的题解才知道int会溢出时可以用longlong，而且c++里定义了INT_MAX和INT_MIN常量|
-|215. 数组中的第K个最大元素|2|https://leetcode-cn.com/problems/kth-largest-element-in-an-array|
+|215. 数组中的第K个最大元素|2|https://leetcode-cn.com/problems/kth-largest-element-in-an-array|快排现在只是用例子验证了princeton的代码的正确性，即：while(true),i、j开始时是lo+1和high，碰到左面大于partition，右面大于partition的交换（等于也都需要交换？），如果i>=j（等于也算），则退出while，lo与j交换(等于时退出循环可以由“10”这个例子知道有效性，最后ij均是1，退出循环，partition元素1与0交换)，但是具体大于/等于号的设定不是特别确定|
 |121. 买卖股票的最佳时机|2|https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock|
 |141. 环形链表|1|https://leetcode-cn.com/problems/linked-list-cycle|
 |21. 合并两个有序链表|1|https://leetcode-cn.com/problems/merge-two-sorted-lists|
