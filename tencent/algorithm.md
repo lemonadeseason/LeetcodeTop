@@ -7,7 +7,7 @@
 |1143. 最长公共子序列|3|https://leetcode-cn.com/problems/longest-common-subsequence|结合具体例子来考虑（2021.5.16第一次做，隔段时间还需要再回顾）|
 |442. 数组中重复的数据|2|https://leetcode-cn.com/problems/find-all-duplicates-in-an-array|完全没思路，第一反应就是排序，看了题解之后发现答案和题设有密切关系,可以巧妙地设立一些标注。|
 |300. 最长上升子序列|2|https://leetcode-cn.com/problems/longest-increasing-subsequence|自己想的，用两个数组dp|
-|8. 字符串转换整数 (atoi)|2|https://leetcode-cn.com/problems/string-to-integer-atoi|
+|8. 字符串转换整数 (atoi)|2|https://leetcode-cn.com/problems/string-to-integer-atoi|看了别人的题解才知道int会溢出时可以用longlong，而且c++里定义了INT_MAX和INT_MIN常量|
 |215. 数组中的第K个最大元素|2|https://leetcode-cn.com/problems/kth-largest-element-in-an-array|
 |121. 买卖股票的最佳时机|2|https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock|
 |141. 环形链表|1|https://leetcode-cn.com/problems/linked-list-cycle|
