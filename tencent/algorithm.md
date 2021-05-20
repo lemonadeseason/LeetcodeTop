@@ -31,7 +31,7 @@
 |43. 字符串相乘|1|https://leetcode-cn.com/problems/multiply-strings|
 |63. 不同路径 II|1|https://leetcode-cn.com/problems/unique-paths-ii|
 |146. LRU缓存机制|1|https://leetcode-cn.com/problems/lru-cache|
-|补充题6. 手撕堆排序|1|https://leetcode-cn.com/problems/sort-an-array|通过了，但很差，还得再跑|
+|补充题6. 手撕堆排序|1|https://leetcode-cn.com/problems/sort-an-array|很慢，不知道问题在哪里？|
 |160. 相交链表|1|https://leetcode-cn.com/problems/intersection-of-two-linked-lists|
-|补充题4. 手撕快速排序|1|https://leetcode-cn.com/problems/sort-an-array|to code|
+|补充题4. 手撕快速排序|1|https://leetcode-cn.com/problems/sort-an-array|增加了排序前shuffle，不然完全有序或者反序的复杂度很高[但是内存/速度都是只超过20%，不知道问题在哪里？]|
 |113. 路径总和 II|1|https://leetcode-cn.com/problems/path-sum-ii|
