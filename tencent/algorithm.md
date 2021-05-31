@@ -11,7 +11,7 @@
 |215. 数组中的第K个最大元素|2|https://leetcode-cn.com/problems/kth-largest-element-in-an-array|快排现在只是用例子验证了princeton的代码的正确性，即：while(true),i、j开始时是lo+1和high，碰到左面大于partition，右面大于partition的交换（等于也都需要交换？），如果i>=j（等于也算），则退出while，lo与j交换(等于时退出循环可以由“10”这个例子知道有效性，最后ij均是1，退出循环，partition元素1与0交换)，但是具体大于/等于号的设定不是特别确定  复制了quicksort的代码修改了一下
 |121. 买卖股票的最佳时机|2|https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock|自己只能想到暴力解法，维护一个目前最便宜值就能从n^2变成n|
 |141. 环形链表|1|https://leetcode-cn.com/problems/linked-list-cycle|自己想了比较久才想到通过改值的方式标志已经去过一个节点，但好像有点投机取巧，实现一下官方题解的快慢指针|
-|21. 合并两个有序链表|1|https://leetcode-cn.com/problems/merge-two-sorted-lists|
+|21. 合并两个有序链表|1|https://leetcode-cn.com/problems/merge-two-sorted-lists|一开始想的这种方法没有利用到现有两个linked list的空间，浪费空间，想想怎么利用|
 |494. 目标和|1|https://leetcode-cn.com/problems/target-sum|
 |227. 基本计算器 II|1|https://leetcode-cn.com/problems/basic-calculator-ii|
 |72. 编辑距离|1|https://leetcode-cn.com/problems/edit-distance|
