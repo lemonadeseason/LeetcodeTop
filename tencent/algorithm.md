@@ -15,7 +15,7 @@
 |494. 目标和|1|https://leetcode-cn.com/problems/target-sum|将每一个数是加正号还是负号的问题转换为挑出若干个数，它们和一定，将这些数添负号，其余数都是正号。既可以使用二维vector也可以使用一维来实现，一维更省空间|
 |227. 基本计算器 II|1|https://leetcode-cn.com/problems/basic-calculator-ii|计算器的四则运算也忘了...维护一个pre op，这样pre op是*时，取栈顶以及当前元素做乘法|
 |72. 编辑距离|1|https://leetcode-cn.com/problems/edit-distance|通过了，但是一会儿还得再看，用一些具体的例子来考虑|
-|633. 平方数之和|1|https://leetcode-cn.com/problems/sum-of-square-numbers|
+|633. 平方数之和|1|https://leetcode-cn.com/problems/sum-of-square-numbers|自己完全没思路，只能想到暴力解法|
 |125. 验证回文串|1|https://leetcode-cn.com/problems/valid-palindrome|
 |152. 乘积最大子数组|1|https://leetcode-cn.com/problems/maximum-product-subarray|
 |15. 三数之和|1|https://leetcode-cn.com/problems/3sum|
