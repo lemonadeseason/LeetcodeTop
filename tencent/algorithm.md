@@ -13,7 +13,7 @@
 |141. 环形链表|1|https://leetcode-cn.com/problems/linked-list-cycle|自己想了比较久才想到通过改值的方式标志已经去过一个节点，但好像有点投机取巧，实现一下官方题解的快慢指针|
 |21. 合并两个有序链表|1|https://leetcode-cn.com/problems/merge-two-sorted-lists|一开始想的这种方法没有利用到现有两个linked list的空间，浪费空间，想想怎么利用；in place的会了|
 |494. 目标和|1|https://leetcode-cn.com/problems/target-sum|将每一个数是加正号还是负号的问题转换为挑出若干个数，它们和一定，将这些数添负号，其余数都是正号。既可以使用二维vector也可以使用一维来实现，一维更省空间|
-|227. 基本计算器 II|1|https://leetcode-cn.com/problems/basic-calculator-ii|
+|227. 基本计算器 II|1|https://leetcode-cn.com/problems/basic-calculator-ii|计算器的四则运算也忘了...维护一个pre op，这样pre op是*时，取栈顶以及当前元素做乘法|
 |72. 编辑距离|1|https://leetcode-cn.com/problems/edit-distance|
 |633. 平方数之和|1|https://leetcode-cn.com/problems/sum-of-square-numbers|
 |125. 验证回文串|1|https://leetcode-cn.com/problems/valid-palindrome|
