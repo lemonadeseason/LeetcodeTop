@@ -16,7 +16,7 @@
 |227. 基本计算器 II|1|https://leetcode-cn.com/problems/basic-calculator-ii|计算器的四则运算也忘了...维护一个pre op，这样pre op是*时，取栈顶以及当前元素做乘法|
 |72. 编辑距离|1|https://leetcode-cn.com/problems/edit-distance|通过了，但是一会儿还得再看，用一些具体的例子来考虑|
 |633. 平方数之和|1|https://leetcode-cn.com/problems/sum-of-square-numbers|自己完全没思路，只能想到暴力解法|
-|125. 验证回文串|1|https://leetcode-cn.com/problems/valid-palindrome|
+|125. 验证回文串|1|https://leetcode-cn.com/problems/valid-palindrome|isalnum()和tolower()Api的用法，跳过不关注的字符，注意左右指针只要相交或重合了就算是回文|
 |152. 乘积最大子数组|1|https://leetcode-cn.com/problems/maximum-product-subarray|
 |15. 三数之和|1|https://leetcode-cn.com/problems/3sum|
 |105. 从前序与中序遍历序列构造二叉树|1|https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal|
