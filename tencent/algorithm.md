@@ -17,7 +17,7 @@
 |72. 编辑距离|1|https://leetcode-cn.com/problems/edit-distance|通过了，但是一会儿还得再看，用一些具体的例子来考虑【6.20做的，过几天再试一试】|
 |633. 平方数之和|1|https://leetcode-cn.com/problems/sum-of-square-numbers|自己完全没思路，只能想到暴力解法【还需要看】|
 |125. 验证回文串|1|https://leetcode-cn.com/problems/valid-palindrome|isalnum()和tolower()Api的用法，跳过不关注的字符，注意左右指针只要相交或重合了就算是回文【还需要看】|
-|152. 乘积最大子数组|1|https://leetcode-cn.com/problems/maximum-product-subarray|
+|152. 乘积最大子数组|1|https://leetcode-cn.com/problems/maximum-product-subarray|动态规划的题一上来感觉无从下上，但仔细想想和“和最大子数组”有相似之处|
 |15. 三数之和|1|https://leetcode-cn.com/problems/3sum|
 |105. 从前序与中序遍历序列构造二叉树|1|https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal|
 |148. 排序链表|1|https://leetcode-cn.com/problems/sort-list|
