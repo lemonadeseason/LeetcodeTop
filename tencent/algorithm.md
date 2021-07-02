@@ -18,7 +18,7 @@
 |633. 平方数之和|1|https://leetcode-cn.com/problems/sum-of-square-numbers|自己完全没思路，只能想到暴力解法【还需要看】|
 |125. 验证回文串|1|https://leetcode-cn.com/problems/valid-palindrome|isalnum()和tolower()Api的用法，跳过不关注的字符，注意左右指针只要相交或重合了就算是回文【还需要看】|
 |152. 乘积最大子数组|1|https://leetcode-cn.com/problems/maximum-product-subarray|动态规划的题一上来感觉无从下上，但仔细想想和“和最大子数组”有相似之处|
-|15. 三数之和|1|https://leetcode-cn.com/problems/3sum|先看了two sum，没想到把已经扫过的东西存在map里，另外不知道c++里unordered_map和map在效率上有什么区别和优劣|
+|15. 三数之和|1|https://leetcode-cn.com/problems/3sum|先看了two sum，没想到把已经扫过的东西存在map里，另外不知道c++里unordered_map和map在效率上有什么区别和优劣。3sum这道题提醒了一定要注意sort带来的优势（有时候不明显）|
 |105. 从前序与中序遍历序列构造二叉树|1|https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal|
 |148. 排序链表|1|https://leetcode-cn.com/problems/sort-list|
 |239. 滑动窗口最大值|1|https://leetcode-cn.com/problems/sliding-window-maximum|
