@@ -20,7 +20,8 @@
 |152. 乘积最大子数组|1|https://leetcode-cn.com/problems/maximum-product-subarray|动态规划的题一上来感觉无从下上，但仔细想想和“和最大子数组”有相似之处|
 |15. 三数之和|1|https://leetcode-cn.com/problems/3sum|先看了two sum，没想到把已经扫过的东西存在map里，另外不知道c++里unordered_map和map在效率上有什么区别和优劣。3sum这道题提醒了一定要注意sort带来的优势（有时候不明显）|
 |105. 从前序与中序遍历序列构造二叉树|1|https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal|自己想的是笨的方法，需要每次构造四个新vector.因为是&引用，所以也可以用index，以及使用unordered_map|
-|148. 排序链表|1|https://leetcode-cn.com/problems/sort-list|先做了链表“插入排序”：https://leetcode-cn.com/problems/insertion-sort-list/，自己想的方法做了两个多小时才通过，是复杂的，同时也因为自己对在链表中插入一项的不熟练。看了官方题解，理解了dummyHead带来的便利，而且只需prev无需cur，这种情况下要注意corner case，比如空的输入，还有prev一直到最后一项，这样的情况下prev->next->val都是有问题的【下次还得再看看】|
+|148. 排序链表|1|https://leetcode-cn.com/problems/sort-list|先做了链表“插入排序”：https://leetcode-cn.com/problems/insertion-sort-list/，自己想的方法做了两个多小时才通过，是复杂的，同时也因为自己对在链表中插入一项的不熟练。看了官方题解，理解了dummyHead带来的便利，而且只需prev无需cur，这种情况下要注意corner case，比如空的输入，还有prev一直到最后一项，这样的情况下prev->next->val都是有问题的【下次还得再看看】
+对于归并排序，之前瞅了一下题解自己实现出来了，但是快慢指针可能效率有点低下，官方给的solution是通过tail来比较是否到尾巴，不需要多次判别next|
 |239. 滑动窗口最大值|1|https://leetcode-cn.com/problems/sliding-window-maximum|
 |22. 括号生成|1|https://leetcode-cn.com/problems/generate-parentheses|
 |75. 颜色分类|1|https://leetcode-cn.com/problems/sort-colors|
