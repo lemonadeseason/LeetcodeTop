@@ -22,7 +22,7 @@
 |105. 从前序与中序遍历序列构造二叉树|1|https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal|自己想的是笨的方法，需要每次构造四个新vector.因为是&引用，所以也可以用index，以及使用unordered_map|
 |148. 排序链表|1|https://leetcode-cn.com/problems/sort-list|先做了链表“插入排序”：https://leetcode-cn.com/problems/insertion-sort-list/，自己想的方法做了两个多小时才通过，是复杂的，同时也因为自己对在链表中插入一项的不熟练。看了官方题解，理解了dummyHead带来的便利，而且只需prev无需cur，这种情况下要注意corner case，比如空的输入，还有prev一直到最后一项，这样的情况下prev->next->val都是有问题的【下次还得再看看】
 对于归并排序，之前瞅了一下题解自己实现出来了，但是快慢指针可能效率有点低下，官方给的solution是通过tail来比较是否到尾巴，不需要多次判别next。再稍微想一想之后，发现tail不光用来while少判断，而且还是避免了分成两个链表是需要“真正”分成两个[还是需要真正分的]，而是只用标注就好×，tail并不是真正的tail，而是已经到第二个了或者null【下次重新想】。7.7重新想了下，官方题解中最巧妙的是slow既作为了前面的尾又作为了后面的尾，一旦head->next=tail时，需要把head->next设置为null，这样归并时才不会有问题。|
-|239. 滑动窗口最大值|1|https://leetcode-cn.com/problems/sliding-window-maximum|
+|239. 滑动窗口最大值|1|https://leetcode-cn.com/problems/sliding-window-maximum|不知道为什么第一个if判断进入不了|
 |22. 括号生成|1|https://leetcode-cn.com/problems/generate-parentheses|
 |75. 颜色分类|1|https://leetcode-cn.com/problems/sort-colors|
 |20. 有效的括号|1|https://leetcode-cn.com/problems/valid-parentheses|
